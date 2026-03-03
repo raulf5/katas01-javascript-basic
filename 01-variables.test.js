@@ -130,6 +130,7 @@ describe("Algebra booleana", () => {
 describe("Operaciones con JavaScript", () => {
     it("Completa las variables que faltan para pasar los tests, toca darle al coco!", () => {
         // Escribe aquí tu código
+        let a=6,b=5,c=2;
 
         assert.strictEqual(a+b,11);
         assert.strictEqual(b+c,7);
