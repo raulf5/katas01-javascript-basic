@@ -12,7 +12,7 @@ TIP: Si consideras que hay demasiada información en el terminal, puedes probar 
 describe("Variables en JavaScript", () => {
    it("Pueden contener strings", () => {
 
-        let a = 'Hello';
+        let a = 'Hello!';
         let b = 'Somos Coders!!';
         // Escribe aquí tu código para hacer pasar el "assert" del test
 
@@ -23,7 +23,7 @@ describe("Variables en JavaScript", () => {
    it("Pueden contener numeros", () => {
         // Escribe aquí tu código
         let c=2;
-        let d=1499;
+        let d=1498;
         assert.strictEqual(c,2);
         assert.strictEqual(d,1498);
     })
