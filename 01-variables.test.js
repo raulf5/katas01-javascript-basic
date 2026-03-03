@@ -22,6 +22,8 @@ describe("Variables en JavaScript", () => {
 
    it("Pueden contener numeros", () => {
         // Escribe aquí tu código
+        let c=2;
+        let d=1499;
         assert.strictEqual(c,2);
         assert.strictEqual(d,1498);
     })
