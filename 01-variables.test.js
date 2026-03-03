@@ -12,6 +12,8 @@ TIP: Si consideras que hay demasiada información en el terminal, puedes probar 
 describe("Variables en JavaScript", () => {
    it("Pueden contener strings", () => {
 
+        let a = 'Hello';
+        let b = 'Somos Coders!!';
         // Escribe aquí tu código para hacer pasar el "assert" del test
 
         assert.strictEqual(a, "Hello!");
