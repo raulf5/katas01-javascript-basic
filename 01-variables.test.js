@@ -80,6 +80,8 @@ describe("Operaciones aritmeticas en JavaScript", () => {
     it("Modulo: Investiga que es el operador modulo (%) en JavaScript para resolver este test", () => {
         // Escribe aquí tu código
 
+        let q=r=2;
+        let s=4,r=3;
         assert.strictEqual(q % r,0);
         assert.strictEqual(s % r,1);
     })
