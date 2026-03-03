@@ -109,7 +109,7 @@ describe("Comparaciones en JavaScript", () => {
 describe("Algebra booleana", () => {
     it("Usando el operador AND (&&)", () => {
         // Escribe aquí tu código
-
+        let a, b;
         const expression = a && b;
 
         assert.strictEqual(expression,true);
