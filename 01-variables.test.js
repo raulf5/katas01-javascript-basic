@@ -30,7 +30,9 @@ describe("Variables en JavaScript", () => {
 
     it("Pueden contener booleanos", () => {
         // Escribe aquí tu código
-
+        let e = true;
+        let f = false;
+        
         assert.strictEqual(e,true);
         assert.strictEqual(f,false);
     })
