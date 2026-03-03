@@ -59,7 +59,7 @@ describe("Operaciones aritmeticas en JavaScript", () => {
 
     it("Resta", () => {
         // Escribe aquí tu código
-
+        let k=9;
         assert.strictEqual(k-l,10);
     })
 
