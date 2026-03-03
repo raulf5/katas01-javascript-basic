@@ -94,7 +94,7 @@ describe("Comparaciones en JavaScript", () => {
     it("Usando el comparador de igualdad ===", () => {
         const number = 20;
         // Escribe aquí tu código
-
+        const expression = number===21;
         assert.strictEqual(expression,false);
     })
 
