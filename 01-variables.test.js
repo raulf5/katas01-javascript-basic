@@ -117,7 +117,7 @@ describe("Algebra booleana", () => {
 
     it("Usando el operador OR (||)", () => {
         // Escribe aquí tu código
-
+        let c;
         const expression = c || d;
 
         assert.strictEqual(expression,false);
