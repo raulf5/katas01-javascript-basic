@@ -32,7 +32,7 @@ describe("Variables en JavaScript", () => {
         // Escribe aquí tu código
         let e = true;
         let f = false;
-        
+
         assert.strictEqual(e,true);
         assert.strictEqual(f,false);
     })
@@ -40,6 +40,8 @@ describe("Variables en JavaScript", () => {
      it("Pueden contener decimales", () => {
         // Escribe aquí tu código
 
+        let g = 1.45;
+        let h = 45.99999;
         assert.strictEqual(g,1.45);
         assert.strictEqual(h,45.99999);
     })
