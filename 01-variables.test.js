@@ -65,7 +65,8 @@ describe("Operaciones aritmeticas en JavaScript", () => {
 
     it("Multiplicacion", () => {
         // Escribe aquí tu código
-
+        let m=2;
+        let n=3;
         assert.strictEqual(m*n,6);
     })
 
