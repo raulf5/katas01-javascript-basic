@@ -72,7 +72,8 @@ describe("Operaciones aritmeticas en JavaScript", () => {
 
     it("Division", () => {
         // Escribe aquí tu código
-
+        let c=6;
+        let p=2;
         assert.strictEqual(o/p,3);
     })
 
