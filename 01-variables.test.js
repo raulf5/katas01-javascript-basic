@@ -53,7 +53,7 @@ describe("Variables en JavaScript", () => {
 describe("Operaciones aritmeticas en JavaScript", () => {
     it("Suma", () => {
         // Escribe aquí tu código
-
+        let i=j=50;
         assert.strictEqual(i+j,100);
     })
 
