@@ -101,7 +101,7 @@ describe("Comparaciones en JavaScript", () => {
     it("Usando el comparador de diferencia !==", () => {
         const language = "JavaScript";
         // Escribe aquí tu código
-
+        const expression = language === 'Java';
         assert.strictEqual(expression,false);
     })
 })
