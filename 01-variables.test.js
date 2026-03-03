@@ -149,6 +149,7 @@ describe("Operaciones con JavaScript", () => {
     it("Completa las variables que faltan para pasar los tests", () => {
         // Escribe aquí tu código
 
+        let a=10, b=100,c, d='Hello', e='End';
         assert.strictEqual(a > 9, true);
         assert.strictEqual(a < 11, true);
         assert.strictEqual(b === 100, true);
