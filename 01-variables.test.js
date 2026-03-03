@@ -53,13 +53,14 @@ describe("Variables en JavaScript", () => {
 describe("Operaciones aritmeticas en JavaScript", () => {
     it("Suma", () => {
         // Escribe aquí tu código
-        let i=j=50;
+        let i=50,j=50;
         assert.strictEqual(i+j,100);
     })
 
     it("Resta", () => {
         // Escribe aquí tu código
         let k=11;
+        let l=1;
         assert.strictEqual(k-l,10);
     })
 
@@ -72,7 +73,7 @@ describe("Operaciones aritmeticas en JavaScript", () => {
 
     it("Division", () => {
         // Escribe aquí tu código
-        let c=6;
+        let o=6;
         let p=2;
         assert.strictEqual(o/p,3);
     })
